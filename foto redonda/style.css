@@ -1,0 +1,30 @@
+img {
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px 10px 50px 10px;
+  border: 0.5px #999393 solid;
+}
+
+img:hover {
+  padding: 10px 10px;
+  margin: 10px 10px 50px 10px;
+  border-radius: 5%;
+  border: 0.5px #999393 solid;
+}
+
+.menu {
+  align-content: left;
+  width: 20%;
+  height: 20%;
+  border: 0.5px #999393 solid;
+}
+.menu ul {
+  padding: 4%;
+}
+.menu ul:hover {
+  background-color: #64d49c;
+  color: white;
+}
+.menu ul:hover::before {
+  content: ">";
+}
