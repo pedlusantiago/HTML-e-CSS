@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 1%;
+  height: 190px;
+  width: 550px;
+  background-color: lightcoral;
+}
+.box {
+  border: 2px solid black;
+  border-radius: 7px;
+  background-color: rgb(83, 85, 241);
+  width: 120px;
+  height: 90px;
+  display: inline-block;
+  position: relative;
+}
+.box-white {
+  background-color: white;
+  top: 50px;
+  left: 50px;
+  /* relativo a posição do BODY*/
+}
+.box-green {
+  background-color: green;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  /* relativo a posção do viewport*/
+}
+.container-relative {
+  position: relative;
+}
+.box-purple {
+  background-color: purple;
+  position: absolute;
+  left: 387px;
+  /* relativo a posição do pai mais próximo, que seja diferente do static*/
+}
+header {
+   text-align: center;
+    height: 20px;
+    color: aqua;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    /* fica sempre na posição que foi configurada*/
+}
