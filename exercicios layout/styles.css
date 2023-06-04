@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-size: 10px;
+  background-color: #222;
+}
+cabecalho {
+  width: 100%;
+  height: 8%;
+  text-align: center;
+  background-color: purple;
+  position: fixed;
+  z-index: 10;
+}
+cabecalho img {
+  width: 300px;
+  padding: 5px;
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  margin-top: -9.5%;
+}
+.about {
+  position: relative;
+  margin-top: -13%;
+  font-size: 1.8em;
+  color: #222;
+  background-color: #fff;
+  height: fit-content;
+}
+.about p {
+  padding-top: 2%;
+  font-size: 1.3em;
+  text-align: justify;
+  margin: 0% 10%;
+}
+.roda-pe {
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  margin-left: 95%;
+}
