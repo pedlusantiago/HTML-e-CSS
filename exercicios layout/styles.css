@@ -23,19 +23,63 @@ cabecalho img {
   padding: 5px;
   position: relative;
 }
-.banner img {
-  width: 100%;
-  height: 100%;
-  margin-top: -9.5%;
+.banner {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-image: url("./src/girafa.jpg");
+  z-index: 9;
 }
+
+.banner h1 {
+  position: absolute;
+  font-size: 4em;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+
+  text-align: center;
+  color: #fff;
+  padding-top: 4%;
+  background-color: rgba(0, 0, 0, 0.6);
+  
+}
+.share {
+  height: 35%;
+  width: 5%;
+  background-color: lightcoral;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+  position: fixed;
+  top: 50%;
+  left: -3.7%;
+  margin-top: -150px;
+  z-index: 10;
+}
+.share:hover {
+  left: 0px;
+}
+
+.share img {
+  width: 60%;
+  height: 20%;
+  margin-top: 32%;
+  margin-left: 14%;
+  cursor: pointer;
+}
+.share img:hover {
+  opacity: 0.75;
+}
+
 .about {
   position: relative;
-  margin-top: -13%;
   font-size: 1.8em;
   color: #222;
   background-color: #fff;
-  height: fit-content;
-}
+ }
 .about p {
   padding-top: 2%;
   font-size: 1.3em;
