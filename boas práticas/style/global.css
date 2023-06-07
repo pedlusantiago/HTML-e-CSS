@@ -8,22 +8,54 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   justify-content: space-between;
+
+  min-height: 100vh;
 }
 
-.footer {
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 80px;
+  padding: 0 32px;
+
+  background-color: purple;
+  color: white;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 10px;
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+
+  padding: 16px 32px;
   height: 200px;
+
   background-color: purple;
   color: white;
-  padding: 16px 32px;
-}
-
-#logo {
-  color: white;
-  text-decoration: none;
 }
